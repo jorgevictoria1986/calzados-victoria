@@ -1,0 +1,207 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Inter:wght@300;500;700&display=swap");
+
+/* Variables */
+
+:root {
+    --principal: #15304a;
+    --secondary: #f9fafc;
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Bowly One SC", cursive;
+}
+
+/* Normalize */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Globals */
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-primary);
+    color: var(--secondary);
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: var(--secondary);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary);
+    display: inline-block;
+}
+
+/* HELPERS */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* HEADER & NAVBAR*/
+
+header {
+    background-color: var(--principal);
+}
+
+header .navbar {
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header .logo {
+    flex-basis: 30%;
+    
+}
+
+.picture__img{
+    height: 7rem;
+    padding: 0.1rem;
+    border-radius: 15%;
+    
+}
+
+header .menu {
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+
+.menu .menu__item {
+    border: 2px solid var(--principal);
+    transition: all .3s ease-in-out;
+}
+
+.menu .menu__item:hover {
+    border-color: var(--secondary);
+}
+
+.menu .menu__item .menu__link {
+    font-size: 1.8em;
+    padding: 1rem;
+
+}
+
+.navbar .menu__item .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--principal);
+}
+
+.navbar .menu .menu__item:hover .sub-menu {
+    display: block;
+   
+}
+
+.menu__item .sub-menu .sub-menu__link {
+    padding: 1rem;
+    font-size: 1.6em;
+    transition: all .3s ease-in-out;
+}
+
+.menu__item .sub-menu .sub-menu__link:hover {
+    width: 100%;
+    background-color: var(--secondary);
+    color: var(--principal);
+    border: 1px solid var(--principal);
+       
+}
+
+/* MAIN SECTION */
+
+.presentation {
+    gap: 2rem;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.presentation__picture {
+    flex-basis: 50%;
+    min-width: 320px;
+}
+
+.presentation__img {
+    width: 100%;
+}
+
+.presentation__description {
+    flex-basis: 50%;
+    color: var(--secondary);
+}
+
+.presentation__container p {
+    font-size: 3.2em;
+}
+
+.presentation__container h1 {
+    font-size: 6.8em;
+}
+
+/* FOOTER */
+
+footer {
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--principal);
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.4em;
+    color: var(--secondary);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: var(--principal);
+}
+
+/* Productos */
+
+.productos{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: (3, 1fr);
+gap: 1rem;
+
+}
+
+.productos__seccion{
+    display: flex;
+    flex-direction: row;
+    
+    width: 32%;
+}
+
+.productos__seccion__item{
+    max-width: 100%;
+    max-height: 100%;
+    margin: .5rem;
+    
+}
+
