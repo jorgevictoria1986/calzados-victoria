@@ -205,3 +205,24 @@ gap: 1rem;
     
 }
 
+.quienes-somos{
+margin: 1rem;
+
+}
+
+.quienes-somos_section{
+float: left;
+width: 50%;
+}
+.quienes-somos_aside{
+float: right;
+
+}
+
+.index_picture{
+    margin-bottom: 1rem;
+}
+
+.index_picture_img{
+    margin-bottom: 1rem;
+}
