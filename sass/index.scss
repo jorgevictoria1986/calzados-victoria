@@ -66,18 +66,37 @@ a {
 
 header {
     background-color: var(--principal);
-}
 
-header .navbar {
+
+&.navbar {
     min-height: 10vh;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
 }
 
-header .logo {
+&.logo {
     flex-basis: 30%;
     
+}
+&.menu {
+    flex-basis: 40%;
+    justify-content: space-between;
+    &.menu__item {
+        border: 2px solid var(--principal);
+        transition: all .3s ease-in-out;
+    }
+    
+    &.menu__item:hover {
+        border-color: var(--secondary);
+    }  
+    
+}
+
+.menu .menu__item .menu__link {
+    font-size: 1.8em;
+    padding: 1rem;
+
 }
 
 .picture__img{
@@ -87,25 +106,9 @@ header .logo {
     
 }
 
-header .menu {
-    flex-basis: 40%;
-    justify-content: space-between;
-}
 
-.menu .menu__item {
-    border: 2px solid var(--principal);
-    transition: all .3s ease-in-out;
-}
 
-.menu .menu__item:hover {
-    border-color: var(--secondary);
-}
 
-.menu .menu__item .menu__link {
-    font-size: 1.8em;
-    padding: 1rem;
-
-}
 
 .navbar .menu__item .sub-menu {
     display: none;
@@ -223,6 +226,6 @@ float: right;
     margin-bottom: 1rem;
 }
 
-.index_picture_img{
+.index_picture_img {
     margin-bottom: 1rem;
-}
+}}
