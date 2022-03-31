@@ -52,7 +52,13 @@ header {
   background-color: var(--principal);
   /* MAIN SECTION */
   /* FOOTER */
-  /* Productos */ }
+  /* Productos */
+  /*.productos__seccion__item{
+    max-width: 100%;
+    max-height: 100%;
+    margin: .5rem;
+    
+}*/ }
   header.navbar {
     min-height: 10vh;
     justify-content: space-between;
@@ -66,11 +72,11 @@ header {
     header.menu.menu__item {
       border: 2px solid var(--principal);
       transition: all .3s ease-in-out; }
-    header.menu.menu__item:hover {
-      border-color: var(--secondary); }
-  header .menu .menu__item .menu__link {
-    font-size: 1.8em;
-    padding: 1rem; }
+      header.menu.menu__item.menu__item:hover {
+        border-color: var(--secondary); }
+    header.menu .menu .menu__item .menu__link, header.menu .menu .menu__item .menu__link--active {
+      font-size: 1.8em;
+      padding: 1rem; }
   header .picture__img {
     height: 7rem;
     padding: 0.1rem;
@@ -129,7 +135,7 @@ header {
   header .productos__seccion__item {
     max-width: 100%;
     max-height: 100%;
-    margin: .5rem; }
+    margin: 0.5rem; }
   header .quienes-somos {
     margin: 1rem; }
   header .quienes-somos_section {
@@ -141,3 +147,23 @@ header {
     margin-bottom: 1rem; }
   header .index_picture_img {
     margin-bottom: 1rem; }
+
+.btn--instagram {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--email {
+  background-color: #C25E30; }
+
+.menu__link, .menu__link--active {
+  font-size: 1.8em;
+  padding: 1rem; }
+  .menu__link--active {
+    border-bottom: 2px solid crimson; }
+
+.productos__seccion__item {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0.5rem; }

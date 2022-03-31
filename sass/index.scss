@@ -85,8 +85,9 @@ header {
     &.menu__item {
         border: 2px solid var(--principal);
         transition: all .3s ease-in-out;
-    }
+        
     
+
     &.menu__item:hover {
         border-color: var(--secondary);
     }  
@@ -96,6 +97,8 @@ header {
 .menu .menu__item .menu__link {
     font-size: 1.8em;
     padding: 1rem;
+    
+    }
 
 }
 
@@ -201,12 +204,23 @@ gap: 1rem;
     width: 32%;
 }
 
+@mixin itemprod($max-width,$max-height,$margin) {
+    max-width: $max-width;
+    max-height: $max-height;
+    margin: $margin;
+}
+
 .productos__seccion__item{
+  @include itemprod(100%, 100%, .5rem);
+}
+
+
+/*.productos__seccion__item{
     max-width: 100%;
     max-height: 100%;
     margin: .5rem;
     
-}
+}*/
 
 .quienes-somos{
 margin: 1rem;
@@ -229,3 +243,38 @@ float: right;
 .index_picture_img {
     margin-bottom: 1rem;
 }}
+
+$redes:(
+    instagram: #55acee,
+    facebook:#3a5795,
+    email: #C25E30,
+);
+
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        background-color: $color;
+    }
+ }
+
+
+
+
+ .menu__link { 
+    font-size: 1.8em;
+    padding: 1rem;
+    &--active{
+        @extend .menu__link; 
+        border-bottom: 2px solid crimson;
+    }
+    }
+
+
+    @mixin itemprod($max-width,$max-height,$margin) {
+        max-width: $max-width;
+        max-height: $max-height;
+        margin: $margin;
+    }
+    
+    .productos__seccion__item{
+      @include itemprod(100%, 100%, .5rem);
+    }
