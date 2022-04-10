@@ -3,7 +3,7 @@
 /* Variables */
 :root {
   --principal: #15304a;
-  --secondary: #f9fafc;
+  --secondary: #ffff;
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Bowly One SC", cursive; }
 
@@ -92,12 +92,14 @@ header {
   header .menu__item .sub-menu .sub-menu__link {
     padding: 1rem;
     font-size: 1.6em;
-    transition: all .3s ease-in-out; }
+    transition: all .3s ease-in-out;
+    color: #ffff; }
   header .menu__item .sub-menu .sub-menu__link:hover {
     width: 100%;
     background-color: var(--secondary);
     color: var(--principal);
-    border: 1px solid var(--principal); }
+    border: 1px solid var(--principal);
+    color: #ffff; }
   header .presentation {
     gap: 2rem;
     align-items: center;
@@ -143,7 +145,8 @@ header {
 
 .menu__link, .menu__link--active {
   font-size: 1.8em;
-  padding: 1rem; }
+  padding: 1rem;
+  color: #ffff; }
   .menu__link--active {
     border-bottom: 2px solid crimson; }
 
@@ -185,3 +188,16 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p {
   color: var(--principal); }
+
+.form-horizontal {
+  margin-left: 27rem; }
+
+.mapa {
+  margin: 2rem; }
+
+/*
+.menu__link{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 400;
+}*/

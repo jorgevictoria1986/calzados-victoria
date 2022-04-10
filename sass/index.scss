@@ -6,7 +6,7 @@
 
 :root {
     --principal: #15304a;
-    --secondary: #f9fafc;
+    --secondary: #ffff;
     --font-primary: "Inter", sans-serif;
     --font-secondary: "Bowly One SC", cursive;
 }
@@ -94,6 +94,8 @@ header {
 
     &.menu__item:hover {
         border-color: var(--secondary);
+              
+        
     }  
     
 }
@@ -101,6 +103,7 @@ header {
 .menu .menu__item .menu__link {
     font-size: 1.8em;
     padding: 1rem;
+    
     
     }
 
@@ -132,6 +135,7 @@ header {
     padding: 1rem;
     font-size: 1.6em;
     transition: all .3s ease-in-out;
+    color: #ffff;
 }
 
 .menu__item .sub-menu .sub-menu__link:hover {
@@ -139,6 +143,7 @@ header {
     background-color: var(--secondary);
     color: var(--principal);
     border: 1px solid var(--principal);
+    color: #ffff;
        
 }
 
@@ -239,6 +244,7 @@ $redes:(
  .menu__link { 
     font-size: 1.8em;
     padding: 1rem;
+    color: #ffff;
     &--active{
         @extend .menu__link; 
         border-bottom: 2px solid crimson;
@@ -302,3 +308,21 @@ footer {
 h1,h2,h3,h4,h5,h6,p{
     color: var(--principal);
 }
+
+
+
+.form-horizontal{
+    margin-left: 27rem;
+ 
+}
+
+.mapa{
+    margin: 2rem;
+
+}
+/*
+.menu__link{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 400;
+}*/
