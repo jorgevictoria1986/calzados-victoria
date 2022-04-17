@@ -92,7 +92,7 @@ header {
         border: 2px solid var(--principal);
         transition: all .3s ease-in-out;
         
-    
+    }
 
     &.menu__item:hover {
         border-color: var(--secondary);
@@ -117,9 +117,6 @@ header {
     border-radius: 15%;
     
 }
-
-
-
 
 
 .navbar .menu__item .sub-menu {
@@ -194,7 +191,7 @@ gap: 1rem;
     display: flex;
     flex-direction: row;
     
-    width: 32%;
+  
 }
 
 @mixin itemprod($max-width,$max-height,$margin) {
@@ -217,7 +214,7 @@ gap: 1rem;
 .index_picture_img {
     margin-bottom: 1rem;
     
-}}
+}
 
 $redes:(
     instagram: #55acee,
@@ -277,9 +274,6 @@ width: 48%;
 .quienes-somos_section_parrafo{
     font-size: 1.5rem;
 }
-.index_p{
-    font-size: 1.5rem;
-}
 
 /* FOOTER */
 
@@ -292,8 +286,12 @@ footer {
 
 .footer_p {
     text-align: center;
-    font-size: 1.4em;
-    color: var(--secondary);
+    
+    color: #ffff;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem
 }
 
 
@@ -385,4 +383,84 @@ margin: 1rem;
     font-weight: 400;
     font-size: 1.5rem;
     margin: 3.5rem;
+}
+
+.index_h3{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+
+.qs_inicio{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: crimson;
+}
+
+.caja_productos{
+    border: solid var(--principal);
+    border-radius: 5%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.caja_description{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+.caja_description1{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.caja_precio{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+    color: crimson;
+}
+
+
+.producto_a{ 
+    text-decoration: none; 
+    color: var(--principal);
+    
+}
+
+.producto_a:hover{
+    text-decoration: none;
+    color: var(--principal);
+    
+}
+
+#producto_a{ 
+    text-decoration: none; 
+    color: var(--principal);
+    
+}
+
+#producto_a:hover{
+    text-decoration: none;
+    color: var(--principal);
+    
 }
