@@ -194,7 +194,9 @@ footer {
   font-family: 'Exo';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row; }
 
 h1, h2, h3, h4, h5, h6, p {
   color: var(--principal); }
@@ -256,7 +258,8 @@ h1, h2, h3, h4, h5, h6, p {
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
-  margin: 3.5rem; }
+  margin: 3.5rem;
+  text-align: justify; }
 
 .index_h3 {
   font-family: 'Exo';
@@ -322,3 +325,22 @@ h1, h2, h3, h4, h5, h6, p {
 #producto_a:hover {
   text-decoration: none;
   color: var(--principal); }
+
+.justificar {
+  text-align: justify !important; }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: var(--principal) !important; }
+
+.footer_p {
+  text-align: center;
+  color: #ffff;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: block;
+  margin: auto; }
+
+.redes_item {
+  margin-right: 2rem; }
