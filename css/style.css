@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  margin: 1.5rem; }
+  margin: 1rem; }
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -344,3 +344,54 @@ h1, h2, h3, h4, h5, h6, p {
 
 .redes_item {
   margin-right: 2rem; }
+
+@media screen and (max-width: 576px) {
+  .index_description {
+    float: none;
+    margin: .5rem;
+    padding-top: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    display: inline; }
+  .index_img {
+    float: none;
+    margin: 1rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; }
+  .index_picture_img {
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    width: 100%; }
+  .index_p {
+    margin: 1rem; }
+  .index_h2 {
+    margin: 1rem; }
+  .logo {
+    margin-right: auto;
+    margin-left: auto; }
+  .footer_p {
+    font-weight: 400;
+    font-size: 1.42rem;
+    display: block;
+    margin: auto; }
+  .redes_item {
+    margin-right: 1rem;
+    margin-bottom: auto;
+    margin-top: auto; }
+  .menu {
+    margin-left: auto;
+    margin-right: auto; }
+  .quienes-somos_section {
+    float: none;
+    width: 100%; }
+  .quienes-somos_aside {
+    float: none;
+    width: 100%; }
+  .quienes-somos {
+    display: flex;
+    flex-direction: column; }
+  .caja_description1 {
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem; } }
