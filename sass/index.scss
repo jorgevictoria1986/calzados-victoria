@@ -497,6 +497,10 @@ margin: 1rem;
    
 }
 
+#duenos{
+   width: 100%;
+}
+
 @media screen and (max-width: 576px) {
     .index_description{
         float: none;
@@ -588,7 +592,117 @@ margin: 1rem;
         margin-bottom: 1rem;
         font-size: 1.4rem;
     }
+    #zapa{
+        width: 75%;
+     }
 
 }
 
-   
+@media screen and (max-width: 768px) {
+
+    .index_description{
+        float: none;
+        
+        margin: .5rem;
+        padding-top: 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        display: inline;
+        
+    }
+    
+    .index_img{
+        float: none;
+        
+        margin: 1rem;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        }
+
+
+        .index_p{
+            margin: 1rem;
+           
+        }
+
+        .index_h2{
+            margin: 1rem;
+            
+        }
+
+        .logo{
+            
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+                    
+        .menu{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+        .quienes-somos_section{
+        float: none;
+        width: 100%;
+        
+        }
+                
+        .quienes-somos_aside{
+        float: none;
+        width: 100%;
+        
+        }
+    
+ 
+    .quienes-somos{
+        display: flex;
+        flex-direction: column;
+    }
+    #zapa{
+        width: 75%;
+     }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .index_description{
+        float: none;
+        
+        margin: .5rem;
+        padding-top: 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        display: inline;
+        
+    }
+    
+    .index_img{
+        float: none;
+        
+        margin: 1rem;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        }
+
+        .quienes-somos_section{
+            float: none;
+            width: 100%;
+            
+        }
+                    
+        .quienes-somos_aside{
+            float: none;
+            width: 100%;
+            
+        }
+        #duenos{
+            width: 76%;
+         }
+}
