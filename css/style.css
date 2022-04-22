@@ -399,7 +399,19 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 1rem;
     font-size: 1.4rem; }
   #zapa {
-    width: 75%; } }
+    width: 75%; }
+  #carouselExampleCaptions {
+    width: 40rem;
+    margin-top: 5rem; }
+  .w-90 {
+    width: 40rem; }
+  .mapa {
+    width: 40rem; }
+  .form-horizontal {
+    width: 10rem;
+    /* float: right;*/ }
+  #form {
+    width: 50rem; } }
 
 @media screen and (max-width: 768px) {
   .index_description {
@@ -435,7 +447,17 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column; }
   #zapa {
-    width: 75%; } }
+    width: 75%; }
+  #carouselExampleCaptions {
+    width: 50rem;
+    margin-top: 3rem; }
+  .w-90 {
+    width: 50rem; }
+  .form-horizontal {
+    width: 100%;
+    float: right;
+    margin-left: -20rem;
+    margin-right: 8rem; } }
 
 @media screen and (max-width: 992px) {
   .index_description {
@@ -458,4 +480,13 @@ h1, h2, h3, h4, h5, h6, p {
     float: none;
     width: 100%; }
   #duenos {
-    width: 76%; } }
+    width: 76%; }
+  #carouselExampleCaptions {
+    margin-bottom: 3rem; }
+  .form-horizontal {
+    width: 100%;
+    float: right;
+    margin-left: 150rem; }
+  .formulario {
+    margin-left: 10rem;
+    width: 100%; } }

@@ -596,6 +596,23 @@ margin: 1rem;
         width: 75%;
      }
 
+     #carouselExampleCaptions{
+         width: 40rem;
+         margin-top: 5rem;
+     }
+     .w-90{
+         width: 40rem;
+     }
+.mapa{
+    width: 40rem;
+}
+.form-horizontal{
+    width: 10rem;
+   /* float: right;*/
+    }
+    #form{
+        width: 50rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -665,8 +682,22 @@ margin: 1rem;
         width: 75%;
      }
 
-
+     #carouselExampleCaptions{
+        width: 50rem;
+        margin-top: 3rem;
+    }
+    .w-90{
+        width: 50rem;
+    }
+    .form-horizontal{
+        width: 100%;
+        float: right;
+       
+        margin-left: -20rem;
+        margin-right: 8rem;
+    }
 }
+
 
 
 @media screen and (max-width: 992px) {
@@ -705,4 +736,20 @@ margin: 1rem;
         #duenos{
             width: 76%;
          }
+
+         #carouselExampleCaptions{
+          
+            margin-bottom: 3rem;
+        }
+        .form-horizontal{
+            width: 100%;
+            float: right;
+            margin-left: 150rem;
+            
+            
+        }
+        .formulario{
+            margin-left: 10rem;
+            width: 100%;
+        }
 }
